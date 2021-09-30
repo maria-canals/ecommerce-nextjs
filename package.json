@@ -1,0 +1,39 @@
+{
+	"name": "ecommerce-nextjs",
+	"version": "0.1.0",
+	"engines": {
+		"node": "14.15.3",
+		"npm": "7.20.0"
+	},
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@material-ui/core": "^4.12.3",
+		"axios": "^0.21.4",
+		"bcryptjs": "^2.4.3",
+		"js-cookie": "^3.0.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.0.5",
+		"next": "11.1.2",
+		"next-connect": "^0.10.2",
+		"next-redux-wrapper": "^7.0.4",
+		"notistack": "^1.0.10",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"react-material-ui-carousel": "^2.3.1",
+		"react-redux": "^7.2.5",
+		"redux": "^4.1.1",
+		"redux-devtools-extension": "^2.13.9",
+		"redux-thunk": "^2.3.0",
+		"validator": "^13.6.0"
+	},
+	"devDependencies": {
+		"eslint": "7.32.0",
+		"eslint-config-next": "11.1.2"
+	}
+}
